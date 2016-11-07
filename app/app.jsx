@@ -6,6 +6,10 @@ import Weather from 'Weather';
 import About from 'About';
 import Examples from 'Examples';
 
+// load Foundation
+import 'style!css!foundation-sites/dist/foundation.min.css';
+$(document).foundation();
+
 class App extends React.Component{
   render(){
     return(
