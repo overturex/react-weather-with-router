@@ -21,7 +21,7 @@ export default class WeatherForm extends React.Component{
     return(
       <form onSubmit={this.formSubmit.bind(this)}>
         <input type="text" onChange={this.onChange.bind(this)} value={this.state.location} placeholder="Enter city name" />
-        <button>Get Weather</button>
+        <button className="button hollow expanded">Get Weather</button>
       </form>
     );
   }
