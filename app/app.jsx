@@ -10,6 +10,9 @@ import Examples from 'Examples';
 import 'style!css!foundation-sites/dist/foundation.min.css';
 $(document).foundation();
 
+// app css
+import 'style!css!sass!AppStyles';
+
 class App extends React.Component{
   render(){
     return(
